@@ -67,7 +67,44 @@ header.nav-top{
   padding-top: 50px ;
   padding-right: 20px;
 }
-
+.contact-form{
+  width: 50%;
+  margin: 50px auto 0;
+}
+.contact-form input[type=text]{
+  display: block;
+  height: 15px;
+  width: 50%;
+  padding: 15px;
+  border-radius: 0;
+  color: black;
+  margin: 40px auto 0;
+  color: black;
+  outline: none;
+}
+.contact-form textarea {
+  display: block;
+  width: 50%;
+  padding: 15px;
+  border-radius: 0;
+  color: black;
+  height: 150px;
+  margin: 10px auto 0;
+  outline: none;
+}
+.contact-form input[type=submit]{
+  display: block;
+  width: 200px;
+  margin: 40px auto 0;
+  padding: 15px;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+  outline: none;
+}
+.contact-form input[type=submit]:hover{
+  background-color: #00CC99;
+}
 /*footer---------------------------------*/
 .footer{
   background-color: #EEEEEE;
